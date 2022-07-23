@@ -8,3 +8,109 @@ red - #ee5253
 
 */
 
+
+body {
+  border: 2px solid blue;
+  background: url("assets/burger-friends.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid yellow;
+  height: 7%;
+  background-color: #0fb9b1;
+}
+
+.headerFont{
+  border: 2px solid orange;
+  margin-left: 20px;
+  align-content: center;
+  font-size: 25px;
+}
+
+.headerButton {
+  margin-right: 20px;
+  border-radius: 10px;
+  width: 175px;
+  height: 45px;
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 3px solid red;
+  margin-top: 3%;
+  display: flex;
+  /* margin-left: 15%; */
+  width: 75%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.square-background1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid green;
+  background-color: rgba(225, 225, 225, .9);
+  width: 600px;
+  height: 500px;
+  opacity: 1.0;
+}
+.form{
+  border: 2px solid magenta;
+  margin-left: 17%;
+  height: 60%;
+}
+
+.radio-div {
+  border: 2px solid orange;
+  margin: 10px;
+  width: 75%;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.lets-cook {
+  background-color: #0fb9b1;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 15%;
+  width: 60%;
+  font-size: 20px;
+}
+
+.square-background2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  background-color: rgba(225, 225, 225, .9);
+  width: 600px;
+  height: 500px;
+  opacity: 1.0;
+}
+
+svg {
+  border: 2px solid blue;
+  height: 40%;
+  width: 40%;
+}
